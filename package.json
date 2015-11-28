@@ -10,7 +10,7 @@
     "css": {},
     "js": {},
     "moduleDependencies": {
-      "lbServices": "/angularSdk/lb-services.js"
+      "lbServices": "/angularSdk/js/lb-services.js"
     }
   },
   "defaultTemplate": "true",
