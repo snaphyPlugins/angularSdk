@@ -1106,6 +1106,518 @@ module.factory(
     return R;
   }]);
 
+/**
+ * @ngdoc object
+ * @name lbServices.Employee
+ * @header lbServices.Employee
+ * @object
+ *
+ * @description
+ *
+ * A $resource object for interacting with the `Employee` model.
+ *
+ * ## Example
+ *
+ * See
+ * {@link http://docs.angularjs.org/api/ngResource.$resource#example $resource}
+ * for an example of using this object.
+ *
+ */
+module.factory(
+  "Employee",
+  ['LoopBackResource', 'LoopBackAuth', '$injector', function(Resource, LoopBackAuth, $injector) {
+    var R = Resource(
+      urlBase + "/Employees/:id",
+      { 'id': '@id' },
+      {
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#create
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Create a new instance of the model and persist it into the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `Employee` object.)
+         * </em>
+         */
+        "create": {
+          url: urlBase + "/Employees",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#createMany
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Create a new instance of the model and persist it into the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Array.<Object>,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Array.<Object>} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `Employee` object.)
+         * </em>
+         */
+        "createMany": {
+          isArray: true,
+          url: urlBase + "/Employees",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#upsert
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Update an existing model instance or insert a new one into the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `Employee` object.)
+         * </em>
+         */
+        "upsert": {
+          url: urlBase + "/Employees",
+          method: "PUT"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#findById
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Find a model instance by id from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `id` – `{*}` - Model id
+         *
+         *  - `filter` – `{object=}` - Filter defining fields and include
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `Employee` object.)
+         * </em>
+         */
+        "findById": {
+          url: urlBase + "/Employees/:id",
+          method: "GET"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#findOne
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Find first instance of the model matched by filter from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `filter` – `{object=}` - Filter defining fields, where, include, order, offset, and limit
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `Employee` object.)
+         * </em>
+         */
+        "findOne": {
+          url: urlBase + "/Employees/findOne",
+          method: "GET"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#createChangeStream
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Create a change stream.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         *  - `options` – `{object=}` - 
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `changes` – `{ReadableStream=}` - 
+         */
+        "createChangeStream": {
+          url: urlBase + "/Employees/change-stream",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#login
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Login a user with username/email and password.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `include` – `{string=}` - Related objects to include in the response. See the description of return value for more details.
+         *   Default value: `user`.
+         *
+         *  - `rememberMe` - `boolean` - Whether the authentication credentials
+         *     should be remembered in localStorage across app/browser restarts.
+         *     Default: `true`.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * The response body contains properties of the AccessToken created on login.
+         * Depending on the value of `include` parameter, the body may contain additional properties:
+         * 
+         *   - `user` - `{User}` - Data of the currently logged in user. (`include=user`)
+         * 
+         *
+         */
+        "login": {
+          params: {
+            include: "user"
+          },
+          interceptor: {
+            response: function(response) {
+              var accessToken = response.data;
+              LoopBackAuth.setUser(accessToken.id, accessToken.userId, accessToken.user);
+              LoopBackAuth.rememberMe = response.config.params.rememberMe !== false;
+              LoopBackAuth.save();
+              return response.resource;
+            }
+          },
+          url: urlBase + "/Employees/login",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#logout
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Logout a user with access token.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         *  - `access_token` – `{string}` - Do not supply this argument, it is automatically extracted from request headers.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * This method returns no data.
+         */
+        "logout": {
+          interceptor: {
+            response: function(response) {
+              LoopBackAuth.clearUser();
+              LoopBackAuth.clearStorage();
+              return response.resource;
+            }
+          },
+          url: urlBase + "/Employees/logout",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#resetPassword
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Reset password for a user with email.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * This method returns no data.
+         */
+        "resetPassword": {
+          url: urlBase + "/Employees/reset",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#getCurrent
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Get data of the currently logged user. Fail with HTTP result 401
+         * when there is no user logged in.
+         *
+         * @param {function(Object,Object)=} successCb
+         *    Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *    `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         */
+        "getCurrent": {
+           url: urlBase + "/Employees" + "/:id",
+           method: "GET",
+           params: {
+             id: function() {
+              var id = LoopBackAuth.currentUserId;
+              if (id == null) id = '__anonymous__';
+              return id;
+            },
+          },
+          interceptor: {
+            response: function(response) {
+              LoopBackAuth.currentUserData = response.data;
+              return response.resource;
+            }
+          },
+          __isGetCurrentUser__ : true
+        }
+      }
+    );
+
+
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#updateOrCreate
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Update an existing model instance or insert a new one into the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `Employee` object.)
+         * </em>
+         */
+        R["updateOrCreate"] = R["upsert"];
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#getCachedCurrent
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Get data of the currently logged user that was returned by the last
+         * call to {@link lbServices.Employee#login} or
+         * {@link lbServices.Employee#getCurrent}. Return null when there
+         * is no user logged in or the data of the current user were not fetched
+         * yet.
+         *
+         * @returns {Object} A Employee instance.
+         */
+        R.getCachedCurrent = function() {
+          var data = LoopBackAuth.currentUserData;
+          return data ? new R(data) : null;
+        };
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#isAuthenticated
+         * @methodOf lbServices.Employee
+         *
+         * @returns {boolean} True if the current user is authenticated (logged in).
+         */
+        R.isAuthenticated = function() {
+          return this.getCurrentId() != null;
+        };
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#getCurrentId
+         * @methodOf lbServices.Employee
+         *
+         * @returns {Object} Id of the currently logged-in user or null.
+         */
+        R.getCurrentId = function() {
+          return LoopBackAuth.currentUserId;
+        };
+
+    /**
+    * @ngdoc property
+    * @name lbServices.Employee#modelName
+    * @propertyOf lbServices.Employee
+    * @description
+    * The name of the model represented by this $resource,
+    * i.e. `Employee`.
+    */
+    R.modelName = "Employee";
+
+
+    return R;
+  }]);
+
 
 module
   .factory('LoopBackAuth', function() {

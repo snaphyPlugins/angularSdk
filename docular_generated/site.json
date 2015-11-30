@@ -2313,6 +2313,1004 @@
         "params": [],
         "docType": "ngdoc",
         "ngdoc": "object",
+        "name": "lbServices.Employee",
+        "header": "lbServices.Employee",
+        "object": "",
+        "description": "A $resource object for interacting with the `Employee` model.\n\n## Example\n\nSee\n{@link http://docs.angularjs.org/api/ngResource.$resource#example $resource}\nfor an example of using this object.",
+        "parentDoc": {},
+        "file": "client/js/lb-services.js",
+        "id": "lbServices.Employee",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "object",
+        "handler": "ngdoc",
+        "search": "lbServices.Employee undefined.object:lbServices.Employee client/js/lb-services.js",
+        "sortOn": "lbServices.Employee",
+        "left": 1,
+        "level": 0,
+        "root": "lbServices.Employee",
+        "right": 32
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\nThis method does not accept any parameters.\nSupply an empty object or omit this argument altogether.",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "postData",
+                "altName": null,
+                "description": "Request data.\n\nThis method expects a subset of model properties as request parameters.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "create",
+        "methodOf": "lbServices.Employee",
+        "description": "Create a new instance of the model and persist it into the data source.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\n<em>\n(The remote method definition does not provide any description.\nThis usually means the response is a `Employee` object.)\n</em>",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "create",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "create undefined.method:create client/js/lb-services.js",
+        "sortOn": "create",
+        "left": 2,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 3
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\nThis method does not accept any parameters.\nSupply an empty object or omit this argument altogether.",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "postData",
+                "altName": null,
+                "description": "Request data.\n\nThis method expects a subset of model properties as request parameters.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Array.<Object>",
+                        "type": "array.<object>"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "createMany",
+        "methodOf": "lbServices.Employee",
+        "description": "Create a new instance of the model and persist it into the data source.",
+        "returns": "{Array.<Object>} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\n<em>\n(The remote method definition does not provide any description.\nThis usually means the response is a `Employee` object.)\n</em>",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "createMany",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "createMany undefined.method:createMany client/js/lb-services.js",
+        "sortOn": "createMany",
+        "left": 4,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 5
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\nThis method does not accept any parameters.\nSupply an empty object or omit this argument altogether.",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "postData",
+                "altName": null,
+                "description": "Request data.\n\nThis method expects a subset of model properties as request parameters.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "upsert",
+        "methodOf": "lbServices.Employee",
+        "description": "Update an existing model instance or insert a new one into the data source.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\n<em>\n(The remote method definition does not provide any description.\nThis usually means the response is a `Employee` object.)\n</em>",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "upsert",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "upsert undefined.method:upsert client/js/lb-services.js",
+        "sortOn": "upsert",
+        "left": 6,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 7
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\n- `id` – `{*}` - Model id\n\n- `filter` – `{object=}` - Filter defining fields and include",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "findById",
+        "methodOf": "lbServices.Employee",
+        "description": "Find a model instance by id from the data source.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\n<em>\n(The remote method definition does not provide any description.\nThis usually means the response is a `Employee` object.)\n</em>",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "findById",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "findById undefined.method:findById client/js/lb-services.js",
+        "sortOn": "findById",
+        "left": 8,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 9
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\n- `filter` – `{object=}` - Filter defining fields, where, include, order, offset, and limit",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "findOne",
+        "methodOf": "lbServices.Employee",
+        "description": "Find first instance of the model matched by filter from the data source.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\n<em>\n(The remote method definition does not provide any description.\nThis usually means the response is a `Employee` object.)\n</em>",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "findOne",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "findOne undefined.method:findOne client/js/lb-services.js",
+        "sortOn": "findOne",
+        "left": 10,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 11
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\nThis method does not accept any parameters.\nSupply an empty object or omit this argument altogether.",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "postData",
+                "altName": null,
+                "description": "Request data.\n\n- `options` – `{object=}` -",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "createChangeStream",
+        "methodOf": "lbServices.Employee",
+        "description": "Create a change stream.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\nData properties:\n\n- `changes` – `{ReadableStream=}` -",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "createChangeStream",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "createChangeStream undefined.method:createChangeStream client/js/lb-services.js",
+        "sortOn": "createChangeStream",
+        "left": 12,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 13
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\n- `include` – `{string=}` - Related objects to include in the response. See the description of return value for more details.\nDefault value: `user`.\n\n- `rememberMe` - `boolean` - Whether the authentication credentials\nshould be remembered in localStorage across app/browser restarts.\nDefault: `true`.",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "postData",
+                "altName": null,
+                "description": "Request data.\n\nThis method expects a subset of model properties as request parameters.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "login",
+        "methodOf": "lbServices.Employee",
+        "description": "Login a user with username/email and password.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\nThe response body contains properties of the AccessToken created on login.\nDepending on the value of `include` parameter, the body may contain additional properties:\n\n- `user` - `{User}` - Data of the currently logged in user. (`include=user`)",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "login",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "login undefined.method:login client/js/lb-services.js",
+        "sortOn": "login",
+        "left": 14,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 15
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\nThis method does not accept any parameters.\nSupply an empty object or omit this argument altogether.",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "postData",
+                "altName": null,
+                "description": "Request data.\n\n- `access_token` – `{string}` - Do not supply this argument, it is automatically extracted from request headers.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "logout",
+        "methodOf": "lbServices.Employee",
+        "description": "Logout a user with access token.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\nThis method returns no data.",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "logout",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "logout undefined.method:logout client/js/lb-services.js",
+        "sortOn": "logout",
+        "left": 16,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 17
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\nThis method does not accept any parameters.\nSupply an empty object or omit this argument altogether.",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "postData",
+                "altName": null,
+                "description": "Request data.\n\nThis method expects a subset of model properties as request parameters.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "resetPassword",
+        "methodOf": "lbServices.Employee",
+        "description": "Reset password for a user with email.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\nThis method returns no data.",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "resetPassword",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "resetPassword undefined.method:resetPassword client/js/lb-services.js",
+        "sortOn": "resetPassword",
+        "left": 18,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 19
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "getCurrent",
+        "methodOf": "lbServices.Employee",
+        "description": "Get data of the currently logged user. Fail with HTTP result 401\nwhen there is no user logged in.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "getCurrent",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "getCurrent undefined.method:getCurrent client/js/lb-services.js",
+        "sortOn": "getCurrent",
+        "left": 20,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 21
+    },
+    {
+        "params": [
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "parameters",
+                "altName": null,
+                "description": "Request parameters.\n\nThis method does not accept any parameters.\nSupply an empty object or omit this argument altogether.",
+                "optional": true,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "postData",
+                "altName": null,
+                "description": "Request data.\n\nThis method expects a subset of model properties as request parameters.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function",
+                        "type": "function"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    },
+                    {
+                        "name": "Object",
+                        "type": "object"
+                    }
+                ],
+                "varName": "successCb",
+                "altName": null,
+                "description": "Success callback with two arguments: `value`, `responseHeaders`.",
+                "optional": false,
+                "defaultValue": null
+            },
+            {
+                "type": [
+                    {
+                        "name": "function(Object)",
+                        "type": "function"
+                    }
+                ],
+                "varName": "errorCb",
+                "altName": null,
+                "description": "Error callback with one argument:\n`httpResponse`.",
+                "optional": true,
+                "defaultValue": null
+            }
+        ],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "updateOrCreate",
+        "methodOf": "lbServices.Employee",
+        "description": "Update an existing model instance or insert a new one into the data source.",
+        "returns": "{Object} An empty reference that will be\npopulated with the actual data once the response is returned\nfrom the server.\n\n<em>\n(The remote method definition does not provide any description.\nThis usually means the response is a `Employee` object.)\n</em>",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "updateOrCreate",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "updateOrCreate undefined.method:updateOrCreate client/js/lb-services.js",
+        "sortOn": "updateOrCreate",
+        "left": 22,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 23
+    },
+    {
+        "params": [],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "getCachedCurrent",
+        "methodOf": "lbServices.Employee",
+        "description": "Get data of the currently logged user that was returned by the last\ncall to {@link lbServices.Employee#login} or\n{@link lbServices.Employee#getCurrent}. Return null when there\nis no user logged in or the data of the current user were not fetched\nyet.",
+        "returns": "{Object} A Employee instance.",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "getCachedCurrent",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "getCachedCurrent undefined.method:getCachedCurrent client/js/lb-services.js",
+        "sortOn": "getCachedCurrent",
+        "left": 24,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 25
+    },
+    {
+        "params": [],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "isAuthenticated",
+        "methodOf": "lbServices.Employee",
+        "returns": "{boolean} True if the current user is authenticated (logged in).",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "isAuthenticated",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "isAuthenticated undefined.method:isAuthenticated client/js/lb-services.js",
+        "sortOn": "isAuthenticated",
+        "left": 26,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 27
+    },
+    {
+        "params": [],
+        "docType": "ngdoc",
+        "ngdoc": "method",
+        "name": "getCurrentId",
+        "methodOf": "lbServices.Employee",
+        "returns": "{Object} Id of the currently logged-in user or null.",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "getCurrentId",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "method",
+        "handler": "ngdoc",
+        "search": "getCurrentId undefined.method:getCurrentId client/js/lb-services.js",
+        "sortOn": "getCurrentId",
+        "left": 28,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 29
+    },
+    {
+        "params": [],
+        "docType": "ngdoc",
+        "ngdoc": "property",
+        "name": "modelName",
+        "propertyOf": "lbServices.Employee",
+        "description": "The name of the model represented by this $resource,\ni.e. `Employee`.",
+        "parentDoc": {
+            "name": "lbServices.Employee"
+        },
+        "file": "client/js/lb-services.js",
+        "id": "modelName",
+        "path": "loopback/lbServices",
+        "groupId": 3,
+        "type": "property",
+        "handler": "ngdoc",
+        "search": "modelName undefined.property:modelName client/js/lb-services.js",
+        "sortOn": "modelName",
+        "left": 30,
+        "level": 1,
+        "root": "lbServices.Employee",
+        "right": 31
+    },
+    {
+        "params": [],
+        "docType": "ngdoc",
+        "ngdoc": "object",
         "name": "lbServices.LoopBackResourceProvider",
         "header": "lbServices.LoopBackResourceProvider",
         "description": "Use `LoopBackResourceProvider` to change the global configuration\nsettings used by all models. Note that the provider is available\nto Configuration Blocks only, see\n{@link https://docs.angularjs.org/guide/module#module-loading-dependencies Module Loading & Dependencies}\nfor more details.\n\n## Example\n\n```js\nangular.module('app')\n.config(function(LoopBackResourceProvider) {\nLoopBackResourceProvider.setAuthHeader('X-Access-Token');\n});\n```",
