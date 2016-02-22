@@ -920,6 +920,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.User#getAbsoluteSchema
+         * @methodOf lbServices.User
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Users/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.User#save
          * @methodOf lbServices.User
          *
@@ -2106,6 +2143,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/Employees/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Employee#getAbsoluteSchema
+         * @methodOf lbServices.Employee
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Employees/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -3596,6 +3670,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/Recipes/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Recipe#getAbsoluteSchema
+         * @methodOf lbServices.Recipe
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Recipes/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -7407,6 +7518,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.EmployeeDetails#getAbsoluteSchema
+         * @methodOf lbServices.EmployeeDetails
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/EmployeeDetails/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.EmployeeDetails#save
          * @methodOf lbServices.EmployeeDetails
          *
@@ -7874,6 +8022,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/adminEmails/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.AdminEmail#getAbsoluteSchema
+         * @methodOf lbServices.AdminEmail
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/adminEmails/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -8447,6 +8632,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/containers/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Container#getAbsoluteSchema
+         * @methodOf lbServices.Container
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/containers/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -9664,6 +9886,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/Customers/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Customer#getAbsoluteSchema
+         * @methodOf lbServices.Customer
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Customers/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -12176,6 +12435,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.Cuisines#getAbsoluteSchema
+         * @methodOf lbServices.Cuisines
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Cuisines/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.Cuisines#save
          * @methodOf lbServices.Cuisines
          *
@@ -13419,6 +13715,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.Category#getAbsoluteSchema
+         * @methodOf lbServices.Category
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Categories/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.Category#save
          * @methodOf lbServices.Category
          *
@@ -14595,6 +14928,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.Comments#getAbsoluteSchema
+         * @methodOf lbServices.Comments
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Comments/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.Comments#save
          * @methodOf lbServices.Comments
          *
@@ -15527,6 +15897,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/RecipeTags/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.RecipeTag#getAbsoluteSchema
+         * @methodOf lbServices.RecipeTag
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/RecipeTags/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -16776,6 +17183,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/Ingredients/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Ingredients#getAbsoluteSchema
+         * @methodOf lbServices.Ingredients
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Ingredients/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -18098,6 +18542,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.IngredientCategory#getAbsoluteSchema
+         * @methodOf lbServices.IngredientCategory
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/IngredientCategories/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.IngredientCategory#save
          * @methodOf lbServices.IngredientCategory
          *
@@ -19085,6 +19566,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.RecipeIngredients#getAbsoluteSchema
+         * @methodOf lbServices.RecipeIngredients
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/RecipeIngredients/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.RecipeIngredients#save
          * @methodOf lbServices.RecipeIngredients
          *
@@ -19923,6 +20441,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/Wishlists/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Wishlist#getAbsoluteSchema
+         * @methodOf lbServices.Wishlist
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Wishlists/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -21318,6 +21873,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.EmailInfo#getAbsoluteSchema
+         * @methodOf lbServices.EmailInfo
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/EmailInfos/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.EmailInfo#save
          * @methodOf lbServices.EmailInfo
          *
@@ -22133,6 +22725,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/Chefs/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Chef#getAbsoluteSchema
+         * @methodOf lbServices.Chef
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Chefs/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -23896,6 +24525,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.Popularity#getAbsoluteSchema
+         * @methodOf lbServices.Popularity
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Popularities/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.Popularity#save
          * @methodOf lbServices.Popularity
          *
@@ -24843,6 +25509,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/Courses/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.Course#getAbsoluteSchema
+         * @methodOf lbServices.Course
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Courses/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -25936,6 +26639,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.ContactChef#getAbsoluteSchema
+         * @methodOf lbServices.ContactChef
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/ContactChefs/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.ContactChef#save
          * @methodOf lbServices.ContactChef
          *
@@ -26895,6 +27635,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.Order#getAbsoluteSchema
+         * @methodOf lbServices.Order
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/Orders/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.Order#save
          * @methodOf lbServices.Order
          *
@@ -27677,6 +28454,43 @@ module.factory(
          */
         "getSchema": {
           url: urlBase + "/RecipeAnalytics/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.RecipeAnalytic#getAbsoluteSchema
+         * @methodOf lbServices.RecipeAnalytic
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/RecipeAnalytics/getAbsoluteSchema",
           method: "POST"
         },
 
@@ -28576,6 +29390,43 @@ module.factory(
 
         /**
          * @ngdoc method
+         * @name lbServices.AmazonImage#getAbsoluteSchema
+         * @methodOf lbServices.AmazonImage
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/AmazonImages/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
          * @name lbServices.AmazonImage#save
          * @methodOf lbServices.AmazonImage
          *
@@ -28795,6 +29646,711 @@ module.factory(
     * i.e. `AmazonImage`.
     */
     R.modelName = "AmazonImage";
+
+
+    return R;
+  }]);
+
+/**
+ * @ngdoc object
+ * @name lbServices.CompanyInfo
+ * @header lbServices.CompanyInfo
+ * @object
+ *
+ * @description
+ *
+ * A $resource object for interacting with the `CompanyInfo` model.
+ *
+ * ## Example
+ *
+ * See
+ * {@link http://docs.angularjs.org/api/ngResource.$resource#example $resource}
+ * for an example of using this object.
+ *
+ */
+module.factory(
+  "CompanyInfo",
+  ['LoopBackResource', 'LoopBackAuth', '$injector', function(Resource, LoopBackAuth, $injector) {
+    var R = Resource(
+      urlBase + "/CompanyInfos/:id",
+      { 'id': '@id' },
+      {
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#create
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Create a new instance of the model and persist it into the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        "create": {
+          url: urlBase + "/CompanyInfos",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#createMany
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Create a new instance of the model and persist it into the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Array.<Object>,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Array.<Object>} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        "createMany": {
+          isArray: true,
+          url: urlBase + "/CompanyInfos",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#upsert
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Update an existing model instance or insert a new one into the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        "upsert": {
+          url: urlBase + "/CompanyInfos",
+          method: "PUT"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#exists
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Check whether a model instance exists in the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `id` – `{*}` - Model id
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `exists` – `{boolean=}` - 
+         */
+        "exists": {
+          url: urlBase + "/CompanyInfos/:id/exists",
+          method: "GET"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#findById
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Find a model instance by id from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `id` – `{*}` - Model id
+         *
+         *  - `filter` – `{object=}` - Filter defining fields and include
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        "findById": {
+          url: urlBase + "/CompanyInfos/:id",
+          method: "GET"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#find
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Find all instances of the model matched by filter from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `filter` – `{object=}` - Filter defining fields, where, include, order, offset, and limit
+         *
+         * @param {function(Array.<Object>,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Array.<Object>} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        "find": {
+          isArray: true,
+          url: urlBase + "/CompanyInfos",
+          method: "GET"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#findOne
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Find first instance of the model matched by filter from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `filter` – `{object=}` - Filter defining fields, where, include, order, offset, and limit
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        "findOne": {
+          url: urlBase + "/CompanyInfos/findOne",
+          method: "GET"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#updateAll
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Update instances of the model matched by where from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `where` – `{object=}` - Criteria to match model instances
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * The number of instances updated
+         */
+        "updateAll": {
+          url: urlBase + "/CompanyInfos/update",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#deleteById
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Delete a model instance by id from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `id` – `{*}` - Model id
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        "deleteById": {
+          url: urlBase + "/CompanyInfos/:id",
+          method: "DELETE"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#count
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Count instances of the model matched by where from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `where` – `{object=}` - Criteria to match model instances
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `count` – `{number=}` - 
+         */
+        "count": {
+          url: urlBase + "/CompanyInfos/count",
+          method: "GET"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#prototype$updateAttributes
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Update attributes for a model instance and persist it into the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `id` – `{*}` - PersistedModel id
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        "prototype$updateAttributes": {
+          url: urlBase + "/CompanyInfos/:id",
+          method: "PUT"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#createChangeStream
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Create a change stream.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         *  - `options` – `{object=}` - 
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `changes` – `{ReadableStream=}` - 
+         */
+        "createChangeStream": {
+          url: urlBase + "/CompanyInfos/change-stream",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#getSchema
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Send the schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getSchema": {
+          url: urlBase + "/CompanyInfos/getSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#getAbsoluteSchema
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Send the absolute schema of the model requested.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method does not accept any data. Supply an empty object.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `schema` – `{object=}` - 
+         */
+        "getAbsoluteSchema": {
+          url: urlBase + "/CompanyInfos/getAbsoluteSchema",
+          method: "POST"
+        },
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#save
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Remote method for saving data with its depedencies
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         *  - `data` – `{object=}` - 
+         *
+         *  - `schema` – `{object=}` - 
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * Data properties:
+         *
+         *  - `data` – `{object=}` - 
+         */
+        "save": {
+          url: urlBase + "/CompanyInfos/save",
+          method: "POST"
+        },
+      }
+    );
+
+
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#updateOrCreate
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Update an existing model instance or insert a new one into the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *   This method does not accept any parameters.
+         *   Supply an empty object or omit this argument altogether.
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        R["updateOrCreate"] = R["upsert"];
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#update
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Update instances of the model matched by where from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `where` – `{object=}` - Criteria to match model instances
+         *
+         * @param {Object} postData Request data.
+         *
+         * This method expects a subset of model properties as request parameters.
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * The number of instances updated
+         */
+        R["update"] = R["updateAll"];
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#destroyById
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Delete a model instance by id from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `id` – `{*}` - Model id
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        R["destroyById"] = R["deleteById"];
+
+        /**
+         * @ngdoc method
+         * @name lbServices.CompanyInfo#removeById
+         * @methodOf lbServices.CompanyInfo
+         *
+         * @description
+         *
+         * Delete a model instance by id from the data source.
+         *
+         * @param {Object=} parameters Request parameters.
+         *
+         *  - `id` – `{*}` - Model id
+         *
+         * @param {function(Object,Object)=} successCb
+         *   Success callback with two arguments: `value`, `responseHeaders`.
+         *
+         * @param {function(Object)=} errorCb Error callback with one argument:
+         *   `httpResponse`.
+         *
+         * @returns {Object} An empty reference that will be
+         *   populated with the actual data once the response is returned
+         *   from the server.
+         *
+         * <em>
+         * (The remote method definition does not provide any description.
+         * This usually means the response is a `CompanyInfo` object.)
+         * </em>
+         */
+        R["removeById"] = R["deleteById"];
+
+
+    /**
+    * @ngdoc property
+    * @name lbServices.CompanyInfo#modelName
+    * @propertyOf lbServices.CompanyInfo
+    * @description
+    * The name of the model represented by this $resource,
+    * i.e. `CompanyInfo`.
+    */
+    R.modelName = "CompanyInfo";
 
 
     return R;
